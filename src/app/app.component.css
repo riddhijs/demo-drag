@@ -8,7 +8,18 @@
   overflow-y: auto !important;
 
 }
-
+.check{
+  
+}
+.example-handle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #ccc;
+  cursor: move;
+  width: 24px;
+  height: 24px;
+}
 .container {
   width: 45%;
   margin: 0 25px 25px 0;
@@ -62,8 +73,8 @@
  .section-heading {
   padding: 5px 10px;
   font-size: 15px;
-  font-weight: bold;
-  text-align: center;
+  
+  
 }
 
 .drag-container {
@@ -82,6 +93,11 @@
   min-height: 60px;
   border-radius: 4px;
   display: blocklist;
+  
+}
+
+mat-slider{
+width: 300px;
 }
 
 .item-box {
@@ -92,11 +108,12 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  /* justify-content: space-between; */
   box-sizing: border-box;
   cursor: move;
   background: white;
-  font-size: 14px;
+  font-size: 20px;
   border-radius: 4px;
   border-bottom: solid 1px #ddd;
   box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.05),
